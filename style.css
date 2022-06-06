@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/12117aa5-d813-4311-9cc0-f26cccde768a/CO-es-20220530-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    margin: 10px auto;
+    padding: 0 50px
+}
+
+.form-login{
+    width: 220px;
+    height: 320px;
+    background-color: rgba(0,0,0,.75);
+    margin: auto;
+    padding: 20px 30px;
+    color: #f3f3f3;
+}
+
+.input-group{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+    font-size: 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+h2{
+    color: #fff;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.button{
+    width: 100%;
+    height: 23px;
+    border: none;   
+    border-radius: 3px;
+    color: #fff;
+    background: #e50914;
+    font-size: 10px;
+    margin-bottom: 16px;
+}
+
+.form-login .help a {
+    color: rgb(215, 215, 215);
+    font-size: 8px;
+    text-decoration: none;
+}
+
+.form-login .help a:hover {
+    text-decoration: underline;
+}
+
+
+.help{
+    color: rgb(215, 215, 215);
+    font-size: 8px;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.help .check{
+    display: flex;
+    align-items: center;
+
+}
+
+.form-login .sub {
+    font-size: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-login .sub a {
+    color: rgb(215, 215, 215);
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.form-login .sub a:hover{
+    text-decoration: underline;
+}
+
+.form-login .info {
+    font-size: 7px;
+}
+
+.form-login .info a {
+    color: blue;
+    font-size: 7px;
+    text-decoration: none;
+}
+
+.form-login .info a:hover{
+    text-decoration: underline;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #e50914;
+    padding-top: 20px;
+    font: bold;
+}
+
+
